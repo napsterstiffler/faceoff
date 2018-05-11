@@ -17,13 +17,15 @@ Features:
     d. Perform motion analysis and predict if head movement is nod or shake. 
     e. If shake, cancel. If nod, add user timestamp in mongo database of the document for that day. 
     
+Usage: run start.py by using the command "python start.py"
+    
     
 Requirements:
-Python 3.6
-OpenCV 3
-imutils
-tkinter
-numpy
+1. Python 3.6
+2. OpenCV 3
+3. imutils
+4. tkinter
+5. numpy
 
 
 Experimenting:
