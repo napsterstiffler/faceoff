@@ -1,8 +1,8 @@
 # FaceOff
 
 Platforms:
-Windows
-Raspberry Pi Model 3B (will be pretty laggy on any other model)
+ Windows
+ Raspberry Pi Model 3B (will be pretty laggy on any other model)
 
 
 Features: 
