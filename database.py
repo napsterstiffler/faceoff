@@ -1,9 +1,13 @@
 from pymongo import MongoClient
+import yaml
 
 
 class Database:
     def __init__(self):
-        self.MONGODB_URI = "mongodb://ninad:ratedrko.123@ds115729.mlab.com:15729/faceoff"
+        with open('conf/pass.yml', 'r') as f:
+            conf = yaml.load(f)
+        uri = conf['mlab']['uri']
+        self.MONGODB_URI = uri
         self.client = MongoClient(self.MONGODB_URI, connectTimeoutMS=30000)
         self.db = self.client.get_database("faceoff")
         self.face = self.db.faces
