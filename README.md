@@ -26,6 +26,7 @@ Usage:
 5. Clone this project on your computer/raspberry pi
 6. Open conf/pass.yml and replace the <> with your mlab URI (Enter your user's username and password in the URI)
 7. Run project using "python start.py" in console
+8. First click on "Add Face" to add as many faces as you want. Then click on "Train Model". You can now use all other buttons. 
     
     
 Requirements:
