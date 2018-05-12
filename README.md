@@ -24,7 +24,8 @@ Usage:
 3. Create 2 collections in your databased named "faces" and "entrylog"
 4. Install all required packages in python 3.6
 5. Clone this project on your computer/raspberry pi
-6. Run project using "python start.py" in console
+6. Open conf/pass.yml and replace the <> with your mlab URI (Enter your user's username and password in the URI)
+7. Run project using "python start.py" in console
     
     
 Requirements:
