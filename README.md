@@ -17,7 +17,14 @@ Features:
     d. Perform motion analysis and predict if head movement is nod or shake. 
     e. If shake, cancel. If nod, add user timestamp in mongo database of the document for that day. 
     
-Usage: run start.py by using the command "python start.py"
+Usage: 
+1. Create free account on https://mlab.com/home and create a database named "faceoff" (you can give it a different name
+    but you will have to edit the database.py file and replace "faceoff" with your name)
+2. Create a user in your database and give it a unique password
+3. Create 2 collections in your databased named "faces" and "entrylog"
+4. Install all required packages in python 3.6
+5. Clone this project on your computer/raspberry pi
+6. Run project using "python start.py" in console
     
     
 Requirements:
